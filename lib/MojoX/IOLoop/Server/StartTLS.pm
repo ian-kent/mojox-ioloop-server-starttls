@@ -3,7 +3,8 @@ package MojoX::IOLoop::Server::StartTLS;
 use IO::Socket::SSL;
 
 # We'll use the version of Mojolicious this was written against
-our $VERSION = '5.14';
+# but we'll add two digits for flexibility
+our $VERSION = '5.1401';
 
 use File::Basename 'dirname';
 use File::Spec::Functions 'catfile';
