@@ -2,6 +2,9 @@ package MojoX::IOLoop::Server::StartTLS;
 
 use IO::Socket::SSL;
 
+# We'll use the version of Mojolicious this was written against
+our $VERSION = '5.14';
+
 use File::Basename 'dirname';
 use File::Spec::Functions 'catfile';
 our $CERT = catfile dirname(__FILE__), 'server.crt';
